@@ -1,0 +1,4 @@
+call c:\Linkout\bat\envpython3.bat
+call  C:\Linkout\bat\envffmpeg.bat
+call %~dp0\.env\Scripts\activate
+start "" C:\local\VSCode\Code.exe "%~dp0"
